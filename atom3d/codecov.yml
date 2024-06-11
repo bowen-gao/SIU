@@ -1,0 +1,12 @@
+ignore:
+  - "atom3d/datasets/lba"  # ignore dataset-specific code for now
+  - "atom3d/datasets/lep"
+  - "atom3d/datasets/msp"
+  - "atom3d/datasets/ppi"
+  - "atom3d/datasets/psr"
+  - "atom3d/datasets/res"
+  - "atom3d/datasets/rsr"
+  - "atom3d/datasets/smp"
+  - "atom3d/shard"
+coverage:
+  range: 0..100

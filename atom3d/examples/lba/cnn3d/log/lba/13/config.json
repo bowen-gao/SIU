@@ -1,0 +1,15 @@
+{
+    "data_dir": "/data/protein/ssmopi_train_data/atom3d/",
+    "mode": "test",
+    "output_dir": "/home/gaobowen/atom3d/examples/lba/cnn3d/log/lba/13",
+    "unobserved": false,
+    "learning_rate": 0.001,
+    "conv_drop_rate": 0.1,
+    "fc_drop_rate": 0.25,
+    "num_epochs": 50,
+    "num_conv": 4,
+    "batch_norm": false,
+    "no_dropout": false,
+    "batch_size": 64,
+    "random_seed": 1303005
+}
