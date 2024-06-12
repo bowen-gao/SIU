@@ -9,9 +9,11 @@ Please download and unzip all files
 
 it should contains:
 
-atom3d_data.zip : the dataset used to train gnn and cnn-3d model
+gnn_cnn_data.zip : the dataset used to train gnn and cnn-3d model. 
 
-split_60: the dataset used to train Uni-Mol or ProFSA model
+split_60: the dataset used to train Uni-Mol or ProFSA model for the SIU 0.6 version
+
+split_90: the dataset used to train Uni-Mol or ProFSA model for the SIU 0.9 version
 
 pretrain_weights.zip:pretrained weights for Uni-Mol and ProFSA
 
@@ -28,14 +30,30 @@ pretrain_weights.zip:pretrained weights for Uni-Mol and ProFSA
 
 ```bash
 cd ./atom3d/examples/lba
+```
 
-cd cnn3d or gnn
+for cnn3d
 
+```bash
+cd cnn3d 
+```
+
+for gnn
+
+```bash
+cd gnn 
+```
+
+start training
+```bash
 python train.py
 
 ```
 
-note that the data path in train.py should be changed to atom3d_data/split_60 or atom3d_data/split_90
+Note that the data path in train.py should be changed to atom3d_data/split_60 or atom3d_data/split_90
+
+
+All the parameters are in train.py. We train the model with one NVIDIA A100 GPU.  
 
 
 ## Train the model with ProFSA
@@ -50,8 +68,9 @@ bash binding_affinity_unimol.sh or binding_affinity_profsa.sh
 use the pretrained weights in pretrain_weights.zip
 
 
-note that the data_path should in the bash file should be pointed to dir split_60 or split_90 (0.6 version and 0.9 version respectively)
+Note that the data_path should in the bash file should be pointed to dir split_60 or split_90 (0.6 version and 0.9 version respectively)
 
 If you want to to Multi Task Learning, please let --num-heads equals to 5, else set it to 1 and point to the correct directory in split_60 or split_90 (ic50, ec50, ki, kd)
 
 
+All the parameters are in bash scripts. We train the model with 4 NVIDIA A100 GPU.  
