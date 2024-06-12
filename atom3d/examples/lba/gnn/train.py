@@ -281,7 +281,7 @@ def train(args, device, log_dir, rep=None, test_mode=False):
 
 if __name__=="__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data_dir', type=str, default="/data/protein/ssmopi_train_data/atom3d/split_90")
+    parser.add_argument('--data_dir', type=str, default="./gnn_cnn_data/split_90")
     parser.add_argument('--mode', type=str, default='train')
     parser.add_argument('--batch_size', type=int, default=256)
     parser.add_argument('--hidden_dim', type=int, default=64)

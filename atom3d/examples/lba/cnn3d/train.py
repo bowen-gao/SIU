@@ -308,7 +308,7 @@ def train(args, device, test_mode=False):
 
 if __name__=="__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data_dir', type=str, default="/drug/ssmopi_train_data/atom3d/split_60")
+    parser.add_argument('--data_dir', type=str, default="./gnn_cnn_data/split_60")
     parser.add_argument('--mode', type=str, default='test',
                         choices=['train', 'test'])
     parser.add_argument('--output_dir', type=str, default="/data/protein/cnn_logs")
