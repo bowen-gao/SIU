@@ -30,8 +30,9 @@ pretrained weights for Uni-Mol and ProFSA
 
 ## Environment
 
+Follow the environment setting in [Uni-Mol](https://github.com/dptech-corp/Uni-Mol) and [Atom3D](https://github.com/drorlab/atom3d)
 
-
+Or use **siu.yaml**
 
 ## Train the model with GNN/CNN-3D
 
