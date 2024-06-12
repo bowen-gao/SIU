@@ -25,6 +25,10 @@ the dataset used to train Uni-Mol or ProFSA model for the SIU 0.9 version
 
 pretrained weights for Uni-Mol and ProFSA
 
+### final_dic.pkl
+
+Complete dataset file in pickle format
+
 
 
 ## dataset format
