@@ -45,10 +45,10 @@ corresponding value is a list of dictionaries. Each dictionary is a data point a
 | coordinates |  list of different conformations of the ligand |
 |  pocket_atoms| atom types in pocket |
 |  pocket_coordinates | atom positions of the pocket |
-|  source_data |  pdbid and uniprot id information |
-|  label |  dictionary for different labels |
-|  ik |  inchikey of ligand |
-|  smi |  smiles of ligand |
+|  source_data |  UniProt ID and PDB ID information |
+|  label |  dictionary for assay types and assay values |
+|  ik | InChI key of the ligand |
+|  smi |  SMILES notation of the ligand |
 
 
 
