@@ -35,7 +35,7 @@ Complete dataset file in pickle format
 
 ### final_dic.pkl
 
-each key is an uniprot id
+each key is an UniProt ID
 
 corresponding value is a list of dictionaries. Each dictionary is a data point and has following keys:
 
