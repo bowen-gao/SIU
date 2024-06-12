@@ -27,6 +27,35 @@ pretrained weights for Uni-Mol and ProFSA
 
 
 
+## dataset format
+
+### final_dic.pkl
+
+each key is an uniprot id
+
+corresponding value is a list of dictionaries. Each dictionary is a data point and has following keys:
+
+| Key      | Description     |
+|----------------|----------------|
+| atoms  | atom types in ligand  |
+| coordinates |  list of different conformations of the ligand |
+|  pocket_atoms| atom types in pocket |
+|  pocket_coordinates | atom positions of the pocket |
+|  source_data |  pdbid and uniprot id information |
+|  label |  dictionary for different labels |
+|  ik |  inchikey of ligand |
+|  smi |  smiles of ligand |
+
+
+
+### Other lmdb files
+
+All data are in lmdb format, and have the same keys as shown above.
+
+Note that for single task learning, the albel is a float value instead of a dictionary.
+
+
+
 
 ## Environment
 
