@@ -54,9 +54,9 @@ corresponding value is a list of dictionaries. Each dictionary is a data point a
 
 ### Other lmdb files
 
-All data are in lmdb format, and have the same keys as shown above.
+All training and testing data are in lmdb format, and have the same keys as shown above.
 
-Note that for single task learning, the albel is a float value instead of a dictionary.
+Note that for single task learning, the label is a float value instead of a dictionary.
 
 
 
