@@ -9,13 +9,21 @@ Please download and unzip all files
 
 it should contains:
 
-gnn_cnn_data.zip : the dataset used to train gnn and cnn-3d model. 
+### gnn_cnn_data.zip 
 
-split_60: the dataset used to train Uni-Mol or ProFSA model for the SIU 0.6 version
+the dataset used to train gnn and cnn-3d model. 
 
-split_90: the dataset used to train Uni-Mol or ProFSA model for the SIU 0.9 version
+### split_60.zip
 
-pretrain_weights.zip:pretrained weights for Uni-Mol and ProFSA
+the dataset used to train Uni-Mol or ProFSA model for the SIU 0.6 version
+
+### split_90.zip
+
+the dataset used to train Uni-Mol or ProFSA model for the SIU 0.9 version
+
+### pretrain_weights.zip
+
+pretrained weights for Uni-Mol and ProFSA
 
 
 
