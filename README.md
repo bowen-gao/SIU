@@ -50,7 +50,7 @@ bash binding_affinity_unimol.sh or binding_affinity_profsa.sh
 use the pretrained weights in pretrain_weights.zip
 
 
-note that the data_path should in the bash file should be pointed to dir split_60 or split_90
+note that the data_path should in the bash file should be pointed to dir split_60 or split_90 (0.6 version and 0.9 version respectively)
 
 If you want to to Multi Task Learning, please let --num-heads equals to 5, else set it to 1 and point to the correct directory in split_60 or split_90 (ic50, ec50, ki, kd)
 
