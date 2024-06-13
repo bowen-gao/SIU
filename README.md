@@ -11,19 +11,25 @@ it should contains:
 
 ### gnn_cnn_data.zip 
 
-the dataset used to train gnn and cnn-3d model. 
+The dataset used to train gnn and cnn-3d model. 
 
 ### split_60.zip
 
-the dataset used to train Uni-Mol or ProFSA model for the SIU 0.6 version
+The dataset used to train Uni-Mol or ProFSA model for the SIU 0.6 version. It contains train.lmdb, valid.lmdb and test.lmdb.
 
 ### split_90.zip
 
-the dataset used to train Uni-Mol or ProFSA model for the SIU 0.9 version
+The dataset used to train Uni-Mol or ProFSA model for the SIU 0.9 version. It contains train.lmdb, valid.lmdb and test.lmdb.
 
 ### pretrain_weights.zip
 
-pretrained weights for Uni-Mol and ProFSA
+Pretrained weights for Uni-Mol and ProFSA.
+
+profsa.pt: weights for pretrained ProFSA model
+
+mol_pre_no_h_220816.pt: weights for pretrained Uni-Mol molecular Encoder
+
+pocket_pre_220816.pt: weights for pretrained Uni-Mol pocketr Encoder
 
 ### final_dic.pkl
 
@@ -58,6 +64,8 @@ All training and testing data are in lmdb format, and have the same keys as show
 
 Note that for single task learning, the label is a float value instead of a dictionary.
 
+
+## Read Dataset
 
 In read_data.py, we provide a script to read from lmdb files and pickle files.
 
