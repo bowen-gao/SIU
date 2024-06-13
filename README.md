@@ -59,6 +59,8 @@ All training and testing data are in lmdb format, and have the same keys as show
 Note that for single task learning, the label is a float value instead of a dictionary.
 
 
+In read_data.py, we provide a script to read from lmdb files and pickle files.
+
 
 
 ## Environment
