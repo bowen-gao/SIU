@@ -35,7 +35,7 @@ Complete dataset file in pickle format
 
 ### final_dic.pkl
 
-each key is an uniprot id
+each key is an UniProt ID
 
 corresponding value is a list of dictionaries. Each dictionary is a data point and has following keys:
 
@@ -45,18 +45,18 @@ corresponding value is a list of dictionaries. Each dictionary is a data point a
 | coordinates |  list of different conformations of the ligand |
 |  pocket_atoms| atom types in pocket |
 |  pocket_coordinates | atom positions of the pocket |
-|  source_data |  pdbid and uniprot id information |
-|  label |  dictionary for different labels |
-|  ik |  inchikey of ligand |
-|  smi |  smiles of ligand |
+|  source_data |  UniProt ID and PDB ID information |
+|  label |  dictionary for assay types and assay values |
+|  ik | InChI key of the ligand |
+|  smi |  SMILES notation of the ligand |
 
 
 
 ### Other lmdb files
 
-All data are in lmdb format, and have the same keys as shown above.
+All training and testing data are in lmdb format, and have the same keys as shown above.
 
-Note that for single task learning, the albel is a float value instead of a dictionary.
+Note that for single task learning, the label is a float value instead of a dictionary.
 
 
 
