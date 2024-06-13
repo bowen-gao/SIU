@@ -1,6 +1,11 @@
 # SIU
 
 
+This GitHub repository contains the dataset and relevant code for the paper: 
+
+**SIU: A Million-Scale Structural Small Molecule-Protein Interaction Dataset for Unbiased Bioactivity Prediction**
+
+
 ## download the dataset
 
 dataset is available at [huggingface dataset repo](https://huggingface.co/datasets/bgao95/SIU)
