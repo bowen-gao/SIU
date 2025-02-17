@@ -40,6 +40,10 @@ pocket_pre_220816.pt: weights for pretrained Uni-Mol pocketr Encoder
 
 Complete dataset file in pickle format
 
+### result_structures.zip
+
+contains all structure files for protein and docked small molecules.
+
 
 
 ## dataset format
